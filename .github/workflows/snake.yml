@@ -1,41 +1,39 @@
 name: Generate Contribution Snake
 
 on:
-schedule:
-- cron: "0 0 * * *"
-workflow_dispatch:
-push:
-branches:
-- main
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
-generate:
-name: Generate Snake SVGs
-runs-on: ubuntu-latest
+  generate:
+    name: Generate Snake SVGs
+    runs-on: ubuntu-latest
 
-```
-permissions:
-  contents: write
+    permissions:
+      contents: write
 
-steps:
-  - name: Checkout Repository
-    uses: actions/checkout@v4
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-  - name: Generate Snake Animation
-    uses: Platane/snk/svg-only@v3
-    with:
-      github_user_name: sourabhJain121
-      outputs: |
-        dist/github-snake.svg
-        dist/github-snake-dark.svg?palette=github-dark
+      - name: Generate Snake Animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: sourabhJain121
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
-  - name: Push Snake Files to Output Branch
-    uses: crazy-max/ghaction-github-pages@v4
-    with:
-      target_branch: output
-      build_dir: dist
-      commit_message: "chore: update contribution snake"
-      keep_history: false
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
+      - name: Push Snake Files to Output Branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: update contribution snake"
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
