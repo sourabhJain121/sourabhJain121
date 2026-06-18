@@ -86,44 +86,26 @@ int main() {
 
 ## 🛠️ Tech Stack
 
-<br/>
+### Languages
 
-**Languages**
+C++ • Python • JavaScript • SQL
 
-<p>
-  <img src="https://skillicons.dev/icons?i=cpp,python,js&theme=dark" alt="Languages"/>
-</p>
+### Machine Learning & Data Science
 
-**Machine Learning & Data Science**
+TensorFlow • PyTorch • Scikit-Learn • OpenCV • Pandas • NumPy • Jupyter • Google Colab
 
-<p>
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn&theme=dark" alt="ML"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
-  <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black" alt="Colab"/>
-</p>
+### Web Development
 
-**Web Development**
+React • Node.js • Express.js • HTML • CSS
 
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nodejs,express,html,css&theme=dark" alt="Web Dev"/>
-</p>
+### Databases
 
-**Databases**
+MongoDB • MySQL
 
-<p>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql&theme=dark" alt="Databases"/>
-</p>
+### Tools
 
-**Tools & Environment**
+Git • GitHub • VS Code • Linux • Postman
 
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,postman&theme=dark" alt="Tools"/>
-</p>
-
-<br/>
 
 ---
 
@@ -153,6 +135,10 @@ int main() {
   <a href="https://github.com/sourabhJain121/gridlock-ai">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=sourabhJain121&repo=gridlock-ai&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e" alt="gridlock-ai"/>
   </a>
+</p>
+
+<p align="center">
+ 🚦 <b>GridLock AI</b> — AI-powered traffic management platform leveraging machine learning, hotspot detection, route optimization, and digital twin simulation to improve urban mobility and reduce congestion.
 </p>
 
 <br/>
